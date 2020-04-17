@@ -1,4 +1,5 @@
 import React from "react";
+import "./script2.js";
 import "./style.css";
 import "./styles.css";
 
