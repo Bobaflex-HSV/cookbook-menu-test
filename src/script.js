@@ -1,7 +1,7 @@
 // elements
-import $ from "jquery";
+/*import $ from "jquery";
 var $page = $(".page");
-/*
+
 $(".menu_toggle").on("click", function() {
   $page.toggleClass("shazam");
 });
