@@ -1,4 +1,6 @@
 import React from "react";
+import $ from "jquery";
+import "./script.js";
 import "./style.css";
 import "./styles.css";
 
