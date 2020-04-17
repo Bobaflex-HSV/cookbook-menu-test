@@ -1,14 +1,19 @@
 import React from "react";
 import $ from "jquery";
-import "./script.js";
 import "./style.css";
 import "./styles.css";
+
+const $page = $(".page");
+function sideMenuHandler() {
+  console.log($(".page"));
+  $page.toggleClass("shazam");
+}
 
 export default function App() {
   return (
     <div className="App">
       <div className="page">
-        <span className="menu_toggle">
+        <span className="menu_toggle" onClick={sideMenuHandler}>
           <i className="menu_open fa fa-bars fa-lg" />
           <i className="menu_close fa fa-times fa-lg" />
         </span>
