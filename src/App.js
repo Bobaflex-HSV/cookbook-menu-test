@@ -3,10 +3,11 @@ import $ from "jquery";
 import "./style.css";
 import "./styles.css";
 
-const $page = $(".page");
 function sideMenuHandler() {
-  console.log($(".page"));
-  $page.toggleClass("shazam");
+  $(".page").toggleClass("shazam");
+}
+function contentHandler() {
+  $(".page").removeClass("shazam");
 }
 
 export default function App() {
@@ -54,7 +55,7 @@ export default function App() {
             </a>
           </li>
         </ul>
-        <main className="content">
+        <main className="content" onClick={contentHandler}>
           <div className="content_inner">
             <h1>Cretan Sfakia Pie</h1>
 
