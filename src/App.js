@@ -13,6 +13,7 @@ function contentHandler() {
 export default function App() {
   return (
     <div className="App">
+      TOP NAV
       <div className="page">
         <span className="menu_toggle" onClick={sideMenuHandler}>
           <i className="menu_open fa fa-bars fa-lg" />
